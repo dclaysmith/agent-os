@@ -4,30 +4,30 @@
 
 Global tech stack defaults for Agent OS projects, overridable in project-specific `.agent-os/product/tech-stack.md`.
 
-- App Framework: Ruby on Rails 8.0+
-- Language: Ruby 3.2+
-- Primary Database: PostgreSQL 17+
-- ORM: Active Record
-- JavaScript Framework: React latest stable
-- Build Tool: Vite
-- Import Strategy: Node.js modules
-- Package Manager: npm
-- Node Version: 22 LTS
-- CSS Framework: TailwindCSS 4.0+
-- UI Components: Instrumental Components latest
-- UI Installation: Via development gems group
-- Font Provider: Google Fonts
-- Font Loading: Self-hosted for performance
-- Icons: Lucide React components
-- Application Hosting: Digital Ocean App Platform/Droplets
-- Hosting Region: Primary region based on user base
-- Database Hosting: Digital Ocean Managed PostgreSQL
-- Database Backups: Daily automated
-- Asset Storage: Amazon S3
-- CDN: CloudFront
-- Asset Access: Private with signed URLs
-- CI/CD Platform: GitHub Actions
-- CI/CD Trigger: Push to main/staging branches
-- Tests: Run before deployment
-- Production Environment: main branch
-- Staging Environment: staging branch
+-   App Framework: Laravel 12+
+-   Language: PHP 8.3+
+-   Primary Database: PostgreSQL 17+
+-   ORM: Eloquent ORM
+-   JavaScript Framework: Vue.js 3 latest or Inertia.js with React
+-   Build Tool: Vite (Laravel default)
+-   Import Strategy: ES modules
+-   Package Manager: npm or pnpm
+-   Node Version: 22 LTS
+-   CSS Framework: TailwindCSS 4.0+
+-   UI Components: Headless UI or Shadcn/ui
+-   UI Installation: Via npm/composer packages
+-   Font Provider: Google Fonts
+-   Font Loading: Self-hosted via Laravel Vite plugin
+-   Icons: Heroicons or Lucide
+-   Application Hosting: Laravel Forge + Digital Ocean/AWS
+-   Hosting Region: Primary region based on user base
+-   Database Hosting: Digital Ocean Managed PostgreSQL or AWS RDS
+-   Database Backups: Daily automated via hosting provider
+-   Asset Storage: Amazon S3 or Digital Ocean Spaces
+-   CDN: CloudFront or Digital Ocean CDN
+-   Asset Access: Laravel signed URLs for private assets
+-   CI/CD Platform: GitHub Actions or Laravel Envoyer
+-   CI/CD Trigger: Push to main/staging branches
+-   Tests: PHPUnit + Pest, run before deployment
+-   Production Environment: main branch
+-   Staging Environment: staging branch

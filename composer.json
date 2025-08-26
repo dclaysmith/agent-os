@@ -1,0 +1,12 @@
+{
+    "name": "davidclaysmith/agent-os",
+    "description": "Fork of Builder Methods Agent OS.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "D Clay Smith",
+            "email": "dclaysmith@gmail.com"
+        }
+    ],
+    "require": {}
+}
