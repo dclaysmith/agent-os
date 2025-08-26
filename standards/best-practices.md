@@ -48,4 +48,27 @@ When adding third-party dependencies:
 
 For items in @.agent-os/tech-stack.md, load best practices from:
 
-https://github.com/laravel/boost/tree/main/.ai
+@.agent-os/standards/lib/boost/
+
+## Context-Specific Loading
+
+Apply the best practices when needed:
+
+-   boost: @.agent-os/standards/lib/boost/\*
+-   php: @.agent-os/standards/lib/php/\*
+-   laravel: @.agent-os/standards/lib/laravel/\*
+-   filament: @.agent-os/standards/lib/filament/\*
+-   livewire: @.agent-os/standards/lib/livewire/\*
+-   volt: @.agent-os/standards/lib/volt/\*
+-   inertia-laravel: @.agent-os/standards/lib/inertia-laravel/\*
+-   inertia-react: @.agent-os/standards/lib/inertia-react/\*
+-   inertia-vue: @.agent-os/standards/lib/inertia-vue/\*
+-   pest: @.agent-os/standards/lib/pest/\*
+-   phpunit: @.agent-os/standards/lib/phpunit/\*
+-   tailwindcss: @.agent-os/standards/lib/tailwindcss/\*
+-   fluxui-free: @.agent-os/standards/lib/fluxui-free/\*
+-   fluxui-pro: @.agent-os/standards/lib/fluxui-pro/\*
+-   herd: @.agent-os/standards/lib/herd/\*
+-   pint: @.agent-os/standards/lib/pint/\*
+-   pennant: @.agent-os/standards/lib/pennant/\*
+-   folio: @.agent-os/standards/lib/folio/\*

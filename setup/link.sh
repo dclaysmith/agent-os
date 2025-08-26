@@ -30,6 +30,9 @@ ln -sfn /Users/davidclaysmith/Projects/AgentOs/claude-code/agents .claude/agents
 echo "Creating symlink: .claude/commands -> /Users/davidclaysmith/Projects/AgentOs/commands"
 ln -sfn /Users/davidclaysmith/Projects/AgentOs/commands .claude/commands
 
+echo "Creating symlink: .agent-os/lib/boost -> /Users/davidclaysmith/Projects/LaravelBoost/.ai"
+ln -sfn /Users/davidclaysmith/Projects/LaravelBoost/.ai .agent-os/standards/lib/boost
+
 echo "Copying Claude.md"
 ln -sfn /Users/davidclaysmith/Projects/AgentOs/claude-code/CLAUDE.md CLAUDE.md
 
