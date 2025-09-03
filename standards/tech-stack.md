@@ -21,7 +21,7 @@ Global tech stack defaults for Agent OS projects, overridable in project-specifi
 -   Icons: Heroicons or Lucide
 -   Application Hosting: Laravel Forge + Digital Ocean/AWS
 -   Hosting Region: Primary region based on user base
--   Database Hosting: Digital Ocean Managed PostgreSQL or AWS RDS
+-   Database Hosting: AWS RDS or Laravel Cloud
 -   Database Backups: Daily automated via hosting provider
 -   Asset Storage: Amazon S3 or Digital Ocean Spaces
 -   CDN: CloudFront or Digital Ocean CDN

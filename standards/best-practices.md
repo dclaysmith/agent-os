@@ -48,13 +48,13 @@ When adding third-party dependencies:
 
 For items in @.agent-os/tech-stack.md, load best practices from:
 
-@.agent-os/standards/lib/boost/
+@.agent-os/standards/lib/
 
 ## Context-Specific Loading
 
 Apply the best practices when needed:
 
--   boost: @.agent-os/standards/lib/boost/\*
+-   boost: @.agent-os/standards/lib/\*
 -   php: @.agent-os/standards/lib/php/\*
 -   laravel: @.agent-os/standards/lib/laravel/\*
 -   filament: @.agent-os/standards/lib/filament/\*
